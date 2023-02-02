@@ -15,8 +15,9 @@
                     <div class="card-header">
                         <span class="card-title">Actualizar Costo</span>
                     </div>
-                    <br>
+                   
                     <div class="card-body">
+                    <br>
                         <form method="POST" action="{{ route('costos.update', $costo->id) }}"  role="form" enctype="multipart/form-data">
                             {{ method_field('PATCH') }}
                             @csrf
