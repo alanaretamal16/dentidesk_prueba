@@ -39,7 +39,7 @@
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <h1>BIENVENIDOS A DENTIDESK</h1>
-                    <img src="https://e7.pngegg.com/pngimages/57/237/png-clipart-dentistry-human-tooth-graphics-dentist-logo-text-dentistry.png" style="width: 200px; height: 200px; border: 2px solid red">
+                    <img src="https://img.freepik.com/vector-premium/logotipo-forma-dental-diente-simple-concepto-estilo-diseno-arte-linea_440600-637.jpg?w=2000" style="width: 200px; height: 200px; border: 2px solid red">
             </div>
                 </div>
 
