@@ -20,7 +20,9 @@
                                 <a href="{{ route('ventas.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Crear') }}
                                 </a>
-                                <a class="btn btn-primary" href="{{ route('home') }}"> Volver</a>
+                                <a  href="{{ route('home') }}" class="btn btn-primary btn-sm float-right"  data-placement="left"> 
+                                {{ __('Volver') }}
+                                </a>
                               </div>
                              
                              
