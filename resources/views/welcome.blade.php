@@ -39,7 +39,7 @@
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <h1>BIENVENIDOS A DENTIDESK</h1>
-                    <img src="https://www.nicepng.com/png/detail/126-1265763_vector-diente-con-estetoscopio-rojo-tooth.png" style="width: 200px; height: 200px;">
+                    <img src="https://www.nicepng.com/png/detail/126-1265763_vector-diente-con-estetoscopio-rojo-tooth.png" style="width: 60px; height: 60px;">
             </div>
                 </div>
 
