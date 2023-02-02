@@ -15,7 +15,10 @@
                     @endif
 
                     {{ __('Felicidades, estas conectado!') }}
-                    <a href="{{ url('/resources/tratamiento/index.blade'}}">Ver detalle</a>
+                    
+                    <div class="float-right">
+                            <a class="btn btn-primary" href="{{ route('tratamientos.index') }}"> Back</a>
+                        </div>
                 </div>
             </div>
         </div>
