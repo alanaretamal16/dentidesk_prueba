@@ -22,7 +22,7 @@
                                 </a>
                               </div>
                              
-                              <a class="btn btn-primary" href="{{ route('home.blade') }}"> Ventas</a>
+                              <a class="btn btn-primary" href="{{ route('home.index') }}"> Ventas</a>
                         </div>
                     </div>
                     @if ($message = Session::get('success'))
