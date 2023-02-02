@@ -22,9 +22,10 @@
                             @include('venta.form')
 
                         </form>
-                       
+                        <br>
+                        <div class="float-right">
                             <a class="btn btn-primary" href="{{ route('ventas.index') }}"> Volver</a>
-                       
+                        </div>
                     </div>
                     
                 </div>
