@@ -6,6 +6,7 @@ use App\Models\Costo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
+use COM;
 
 /**
  * Class CostoController
@@ -111,8 +112,18 @@ class CostoController extends Controller
     public function costos($id)
     {
         $costos = DB::table("costos")
-                    ->where("tratamiento_id",$id)
-                    ->pluck('descripcion','id');
+            ->where("tratamiento_id", $id)
+            ->pluck('descripcion', 'id');
         return json_encode($costos);
+    }
+    public function sumaIngreso(Request $respuesta)
+    {
+
+
+        $from = $respuesta->input('from');
+        $to = $respuesta->input('to');
+
+        $respuesta = Costo::whereBetween('fecha', [$from, $to])->select(DB::raw('sum(cantidad * valor_unitario) as total'))->get();
+        $respuesta = Costo::whereBetween('fecha', [$from, $to])->select(DB::raw('sum(cantidad * valor_unitario) as total'))->get();
     }
 }

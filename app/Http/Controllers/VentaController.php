@@ -106,4 +106,5 @@ class VentaController extends Controller
         return redirect()->route('ventas.index')
             ->with('success', 'Venta deleted successfully');
     }
+    
 }
