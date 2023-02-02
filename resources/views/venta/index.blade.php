@@ -21,11 +21,8 @@
                                   {{ __('Crear') }}
                                 </a>
                               </div>
-                              <div class="float-right">
-                                <a href="{{ route('home.blade') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Volver') }}
-                                </a>
-                              </div>
+                             
+                              <a class="btn btn-primary" href="{{ route('home.index') }}"> Ventas</a>
                         </div>
                     </div>
                     @if ($message = Session::get('success'))
