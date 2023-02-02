@@ -23,6 +23,9 @@
                             @include('venta.form')
 
                         </form>
+                        <div class="float-right">
+                            <a class="btn btn-primary" href="{{ route('costos.index') }}"> Volver</a>
+                        </div>
                     </div>
                 </div>
             </div>
