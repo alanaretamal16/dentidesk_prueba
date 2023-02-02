@@ -39,7 +39,7 @@
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <h1>BIENVENIDOS A DENTIDESK</h1>
-                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Ftooth_1446801&psig=AOvVaw13xO2JN9-E_GTC7WzDBE0Y&ust=1675449164391000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiLqtS89_wCFQAAAAAdAAAAABAJ" style="width: 200px; height: 200px; border: 2px solid red">
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Fvectores-gratis%2Fdiente-logo&psig=AOvVaw13xO2JN9-E_GTC7WzDBE0Y&ust=1675449164391000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiLqtS89_wCFQAAAAAdAAAAABAh" style="width: 200px; height: 200px; border: 2px solid red">
             </div>
                 </div>
 
