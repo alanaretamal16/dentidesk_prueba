@@ -21,7 +21,7 @@
                        
                             <a class="btn btn-primary" href="{{ route('ventas.index') }}"> Ventas</a>
 
-                     
+                            <a class="btn btn-primary" href="{{ route('costos.index') }}"> Costos</a>
                         </div>
                 </div>
             </div>

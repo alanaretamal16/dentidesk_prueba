@@ -11,7 +11,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="float-left">
-                            <span class="card-title">Show Costo</span>
+                            <span class="card-title">Mostrar Costo</span>
                         </div>
                         <div class="float-right">
                             <a class="btn btn-primary" href="{{ route('costos.index') }}"> Back</a>
@@ -20,10 +20,7 @@
 
                     <div class="card-body">
                         
-                        <div class="form-group">
-                            <strong>Tratamiento Id:</strong>
-                            {{ $costo->tratamiento_id }}
-                        </div>
+                       
                         <div class="form-group">
                             <strong>Descripcion:</strong>
                             {{ $costo->descripcion }}

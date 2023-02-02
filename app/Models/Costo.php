@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
  * Class Costo
  *
  * @property $id
- * @property $tratamiento_id
  * @property $descripcion
  * @property $valor_unitario
  * @property $cantidad
@@ -22,7 +21,6 @@ class Costo extends Model
 {
     
     static $rules = [
-		'tratamiento_id' => 'required',
 		'descripcion' => 'required',
 		'valor_unitario' => 'required',
 		'cantidad' => 'required',
@@ -35,7 +33,7 @@ class Costo extends Model
      *
      * @var array
      */
-    protected $fillable = ['tratamiento_id','descripcion','valor_unitario','cantidad'];
+    protected $fillable = ['descripcion','valor_unitario','cantidad'];
 
 
 

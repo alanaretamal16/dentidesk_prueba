@@ -106,4 +106,15 @@ class TratamientoController extends Controller
         return redirect()->route('tratamientos.index')
             ->with('success', 'Tratamiento deleted successfully');
     }
+    public function sumaIngreso(Request $respuesta)
+    {
+
+       
+        $from= $respuesta->input('from');
+        $to= $respuesta->input('to');
+
+        $respuesta = Tratamiento::whereBetween('fecha', [$from, $to])->sum('valor');
+
+        return json_encode(['total'=>$respuesta]);
+    }
 }

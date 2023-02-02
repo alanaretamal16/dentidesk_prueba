@@ -15,7 +15,6 @@ class CreateCostosTable extends Migration
     {
         Schema::create('costos', function (Blueprint $table) {
             $table->id();
-            $table->integer('tratamiento_id');
             $table->string('descripcion');
             $table->double('valor_unitario', 8, 2);
             $table->integer('cantidad');
