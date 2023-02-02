@@ -20,9 +20,10 @@
                                 <a href="{{ route('ventas.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Crear') }}
                                 </a>
+                                <a class="btn btn-primary" href="{{ route('home') }}"> Volver</a>
                               </div>
                              
-                              <a class="btn btn-primary" href="{{ route('home') }}"> Ventas</a>
+                             
                         </div>
                     </div>
                     @if ($message = Session::get('success'))
