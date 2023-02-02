@@ -7,7 +7,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://img.freepik.com/fotos-premium/espejo-dentista-diente-grande-clinica-dentista-fondo_488220-9369.jpg" rel="stylesheet">
 
         <!-- Styles -->
         <style>
