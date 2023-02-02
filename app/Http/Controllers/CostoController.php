@@ -116,7 +116,7 @@ class CostoController extends Controller
             ->pluck('descripcion', 'id');
         return json_encode($costos);
     }
-    public function sumaIngreso(Request $respuesta)
+    public function sumaCostos(Request $respuesta)
     {
 
 
