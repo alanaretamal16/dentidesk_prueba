@@ -21,6 +21,9 @@
                                 <a href="{{ route('tratamientos.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Crear') }}
                                 </a>
+                                <a  href="{{ route('home') }}" class="btn btn-primary btn-sm float-right"  data-placement="left"> 
+                                {{ __('Volver') }}
+                                </a>
                               </div>
                         </div>
                     </div>
