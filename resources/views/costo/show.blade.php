@@ -14,7 +14,7 @@
                             <span class="card-title">Mostrar Costo</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('costos.index') }}"> Back</a>
+                            <a class="btn btn-primary" href="{{ route('costos.index') }}"> volver</a>
                         </div>
                     </div>
 
