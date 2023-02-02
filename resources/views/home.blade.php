@@ -15,7 +15,7 @@
                     @endif
 
                     {{ __('Felicidades, estas conectado!') }}
-                    <a href="{{ url('/usuarios/'.$user->id) }}">Ver detalle</a>
+                    <a href="{{ url('/resources/tratamiento/index.blade'}}">Ver detalle</a>
                 </div>
             </div>
         </div>
