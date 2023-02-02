@@ -16,11 +16,7 @@
                                 {{ __('Tratamiento') }}
                             </span>
 
-                            <div class="float-right">
-                                <a href="{{ route('home.blade') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
-                                  {{ __('Volver') }}
-                                </a>
-                              </div>
+                          
                              <div class="float-right">
                                 <a href="{{ route('tratamientos.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Crear') }}
