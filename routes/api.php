@@ -3,7 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ApiController;
+use App\Http\Controllers\CostoController;
 use App\Http\Controllers\TratamientoController;
+use App\Models\Costo;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +27,5 @@ Route::post('/login',[ApiController::class,'login']);
 
 
 Route::post('/sumaIngreso',[TratamientoController::class,'sumaIngreso']);
+
+Route::post('/sumaCostos',[CostoController::class,'sumaCostos']);
