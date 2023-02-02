@@ -5,12 +5,6 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-            <div class="dropdown-menu">
-                        <span class="dropdown-item-text">Dropdown item text</span>
-                        <a class="dropdown-item" href="#">Inicio</a>
-                        <a class="dropdown-item" href="#">Trabajos</a>
-                        <a class="dropdown-item" href="#">Quien soy</a>
-                    </div>
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
@@ -21,7 +15,7 @@
                     @endif
 
                     {{ __('Felicidades, estas conectado!') }}
-                   
+                    <a href="{{ url('/usuarios/'.$user->id) }}">Ver detalle</a>
                 </div>
             </div>
         </div>
