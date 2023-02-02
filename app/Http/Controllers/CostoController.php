@@ -123,7 +123,7 @@ class CostoController extends Controller
         $from = $respuesta->input('from');
         $to = $respuesta->input('to');
 
-        $respuesta = Costo::whereBetween('fecha', [$from, $to])->select(DB::raw('sum(cantidad * valor_unitario) as total'))->get();
-        $respuesta = Costo::whereBetween('fecha', [$from, $to])->select(DB::raw('sum(cantidad * valor_unitario) as total'))->get();
+        $respuesta = Costo::whereBetween('created_at', [$from, $to])->select(DB::raw('sum(cantidad * valor_unitario) as total'))->get();
+        $respuesta = Costo::whereBetween('created_at', [$from, $to])->select(DB::raw('sum(cantidad * valor_unitario) as total'))->get();
     }
 }
