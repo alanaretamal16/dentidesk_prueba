@@ -23,10 +23,9 @@
 
                         </form>
                     </div>
+                    <a class="btn btn-primary" href="{{ route('ventas.index') }}"> Volver</a>
                 </div>
-                <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('ventas.index') }}"> Atrás</a>
-                        </div>
+             
             </div>
         </div>
     </section>
