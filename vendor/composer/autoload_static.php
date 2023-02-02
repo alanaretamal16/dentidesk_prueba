@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
+class ComposerStaticInit0facf4f97cbe41c38d4f9db04eab374f
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -32,6 +32,7 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
+        'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
@@ -128,6 +129,7 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Foundation\\Auth\\' => 27,
             'Illuminate\\' => 11,
+            'Ibex\\CrudGenerator\\' => 19,
         ),
         'G' => 
         array (
@@ -162,6 +164,7 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
         'C' => 
         array (
             'Cron\\' => 5,
+            'Collective\\Html\\' => 16,
             'Carbon\\' => 7,
         ),
         'B' => 
@@ -406,6 +409,10 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
         ),
+        'Ibex\\CrudGenerator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ibex/crud-generator/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -482,6 +489,10 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
+        'Collective\\Html\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravelcollective/html/src',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
@@ -523,6 +534,7 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
         'App\\Http\\Controllers\\CostoController' => __DIR__ . '/../..' . '/app/Http/Controllers/CostoController.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\TratamientoController' => __DIR__ . '/../..' . '/app/Http/Controllers/TratamientoController.php',
+        'App\\Http\\Controllers\\VentaController' => __DIR__ . '/../..' . '/app/Http/Controllers/VentaController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -642,6 +654,13 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Carbon\\TranslatorImmutable' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/TranslatorImmutable.php',
         'Carbon\\TranslatorStrongTypeInterface' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/TranslatorStrongTypeInterface.php',
+        'Collective\\Html\\Componentable' => __DIR__ . '/..' . '/laravelcollective/html/src/Componentable.php',
+        'Collective\\Html\\Eloquent\\FormAccessible' => __DIR__ . '/..' . '/laravelcollective/html/src/Eloquent/FormAccessible.php',
+        'Collective\\Html\\FormBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/FormBuilder.php',
+        'Collective\\Html\\FormFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/FormFacade.php',
+        'Collective\\Html\\HtmlBuilder' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlBuilder.php',
+        'Collective\\Html\\HtmlFacade' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlFacade.php',
+        'Collective\\Html\\HtmlServiceProvider' => __DIR__ . '/..' . '/laravelcollective/html/src/HtmlServiceProvider.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
@@ -1642,6 +1661,10 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Ibex\\CrudGenerator\\Commands\\CrudGenerator' => __DIR__ . '/..' . '/ibex/crud-generator/src/Commands/CrudGenerator.php',
+        'Ibex\\CrudGenerator\\Commands\\GeneratorCommand' => __DIR__ . '/..' . '/ibex/crud-generator/src/Commands/GeneratorCommand.php',
+        'Ibex\\CrudGenerator\\CrudServiceProvider' => __DIR__ . '/..' . '/ibex/crud-generator/src/CrudServiceProvider.php',
+        'Ibex\\CrudGenerator\\ModelGenerator' => __DIR__ . '/..' . '/ibex/crud-generator/src/ModelGenerator.php',
         'Illuminate\\Auth\\Access\\AuthorizationException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
         'Illuminate\\Auth\\Access\\Events\\GateEvaluated' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Events/GateEvaluated.php',
         'Illuminate\\Auth\\Access\\Gate' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',
@@ -5482,10 +5505,10 @@ class ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit5b1fa846ab71e2d698f715aa012b2721::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0facf4f97cbe41c38d4f9db04eab374f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0facf4f97cbe41c38d4f9db04eab374f::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit0facf4f97cbe41c38d4f9db04eab374f::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit0facf4f97cbe41c38d4f9db04eab374f::$classMap;
 
         }, null, ClassLoader::class);
     }

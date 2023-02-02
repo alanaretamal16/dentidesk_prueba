@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\CostoController;
+use App\Http\Controllers\TratamientoController;
+use App\Http\Controllers\VentaController;
+use App\Models\Venta;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +20,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('tratamientos',TratamientoController::class);
+
+Route::resource('ventas',VentaController::class);
+
+Route::resource('costos',CostoController::class);
+
 
 Auth::routes();
 
