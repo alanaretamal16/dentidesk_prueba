@@ -39,9 +39,8 @@
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <h1>BIENVENIDOS A DENTIDESK</h1>
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="https://cdn.pixabay.com/photo/2016/11/11/03/49/dental-1815731_960_720.png" class="h-16 w-auto text-gray-700 sm:h-20">
-                       
-                    </svg>
+                    <img src="{{URL::asset('public/diente.jpg')}}"
+            </div>
                 </div>
 
                
