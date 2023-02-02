@@ -36,9 +36,8 @@
                 </div>
             @endif
 
-            <link href="https://img.freepik.com/fotos-premium/espejo-dentista-diente-grande-clinica-dentista-fondo_488220-9369.jpg?w=740" rel="stylesheet">
 
-
+            <body background="https://img.freepik.com/fotos-premium/espejo-dentista-diente-grande-clinica-dentista-fondo_488220-9369.jpg?w=740">
                
                      
 
