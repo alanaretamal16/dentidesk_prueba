@@ -20,6 +20,8 @@
                             <a class="btn btn-primary" href="{{ route('tratamientos.index') }}"> Tratamientos</a>
                        
                             <a class="btn btn-primary" href="{{ route('ventas.index') }}"> Ventas</a>
+
+                     
                         </div>
                 </div>
             </div>

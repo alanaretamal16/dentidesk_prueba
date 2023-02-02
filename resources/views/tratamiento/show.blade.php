@@ -14,7 +14,7 @@
                             <span class="card-title">Mostrar Tratamiento</span>
                         </div>
                         <div class="float-right">
-                            <a class="btn btn-primary" href="{{ route('tratamientos.index') }}"> Atrás</a>
+                            <a class="btn btn-primary" href="{{ route('tratamientos.index') }}"> Volver</a>
                         </div>
                     </div>
 
