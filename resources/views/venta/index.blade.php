@@ -15,7 +15,11 @@
                             <span id="card_title">
                                 {{ __('Venta') }}
                             </span>
-
+                            <div class="float-right">
+                                <a href="{{ route('home.blade') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
+                                  {{ __('Volver') }}
+                                </a>
+                              </div>
                              <div class="float-right">
                                 <a href="{{ route('ventas.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Crear') }}
